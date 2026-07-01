@@ -6,10 +6,7 @@
 
 *Computer Engineering student at Ankara University · Expected graduation June 2026*
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/omer-dogan-bycycomr)
-[![Portfolio](https://img.shields.io/badge/Portfolio-omerdogan.dev-111827?style=flat&logo=firefox&logoColor=white)](https://omerdogan.dev)
-[![Medium](https://img.shields.io/badge/Medium-@bycycomr-000000?style=flat&logo=medium&logoColor=white)](https://medium.com/@bycycomr)
-[![Email](https://img.shields.io/badge/Email-omerr.dogan11@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:omerr.dogan11@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/omer-dogan-bycycomr) [![Portfolio](https://img.shields.io/badge/Portfolio-omerdogan.dev-111827?style=flat&logo=firefox&logoColor=white)](https://omerdogan.dev) [![Medium](https://img.shields.io/badge/Medium-@bycycomr-000000?style=flat&logo=medium&logoColor=white)](https://medium.com/@bycycomr) [![Email](https://img.shields.io/badge/Email-omerr.dogan11@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:omerr.dogan11@gmail.com)
 
 </div>
 
@@ -27,8 +24,8 @@ I care about clean architecture, testable code, and solving real problems end-to
 
 > An open-source Claude/LLM skill that detects and strips AI-writing patterns from **Turkish** text — the bureaucratic suffixes, filler phrases, and hidden-subject constructions that make LLM output sound robotic.
 
-- A ground-up **redesign** (not a translation) of the MIT-licensed [Stop Slop](https://github.com/hardikpandya/stop-slop) skill, built around Turkish-specific tells: `-mektedir/-maktadır` inflation, redundant `-dir` copula, "söz konusu / bağlamında / noktasında" filler, formulaic openers.
-- Ships as an installable `.skill` package with reference files for banned phrases, structural clichés, and before/after transformations.
+- A ground-up **redesign** (not a translation) of the MIT-licensed [Stop Slop](https://github.com/hardikpandya/stop-slop) skill, built around Turkish-specific tells: -mektedir/-maktadır inflation, redundant -dir copula, "söz konusu / bağlamında / noktasında" filler, formulaic openers.
+- Ships as an installable .skill package with reference files for banned phrases, structural clichés, and before/after transformations.
 - Works with Claude Code, Claude Projects, custom instructions, and raw API system prompts.
 
 ---
@@ -42,6 +39,18 @@ I care about clean architecture, testable code, and solving real problems end-to
 - **Results:** CJK contamination cut from **82.2% → 0.3%**, clinical safety rate **91.3%**
 - **Research output:** IEEE conference paper (submitted to ASYU 2026) · co-author Muhammed Emin Keçik · advisor Dr. Öğr. Üyesi Sevgi Yiğit Sert
 - *Repository will be made public soon.*
+
+---
+
+### 🗄️ [NL2SQL Platform — Natural Language to SQL Engine](https://github.com/Nurol-Teknoloji-NL2SQL/NL2SQL-Platform) *(built at Nurol Teknoloji)*
+
+> Enterprise system that turns plain natural-language questions into accurate SQL queries across multiple database engines. I own the AI backend end-to-end.
+
+- **Agentic pipeline:** a **9-node LangGraph** workflow that plans, generates, validates, and self-corrects SQL
+- **Grounding:** **RAG** over schema/context with **ChromaDB** to reduce hallucinated columns and joins
+- **Serving:** **FastAPI** backend, multi-DBMS support (MSSQL · PostgreSQL · SQLite)
+- **Evaluation:** benchmarked on the **BIRDTurk** Turkish text-to-SQL benchmark
+- Delivered on the InnovatioN Together platform
 
 ---
 
@@ -64,7 +73,7 @@ I care about clean architecture, testable code, and solving real problems end-to
 - **Stack:** Python · LangGraph · ChromaDB · sentence-transformers · pytest
 - **Architecture highlights:**
   - **(A) Reflection loop** — on tool failure, re-searches and retries with error context injected (up to 2 retries)
-  - **(B) Native LLM function calling** — structured JSON arguments via `bind_tools`, eliminates hallucinated args
+  - **(B) Native LLM function calling** — structured JSON arguments via bind_tools, eliminates hallucinated args
   - **(C) Plan-and-Solve decomposition** — multi-intent tasks split into ordered sub-tasks
   - **(D) Hybrid search** — BM25 keyword scoring fused with ChromaDB vector similarity (0.6 × vector + 0.4 × BM25)
   - **(E) Stateful data flow** — tools run in dependency tiers; each output is injected as real context for downstream tools
@@ -108,23 +117,17 @@ I care about clean architecture, testable code, and solving real problems end-to
 
 ## 🛠️ Tech Stack
 
-**Backend**
-`Java` `Spring Boot` `C#` `.NET 8` `ASP.NET Core` `FastAPI` `RESTful APIs` `Clean Architecture`
+**Backend** Java Spring Boot C# .NET 8 ASP.NET Core FastAPI RESTful APIs Clean Architecture
 
-**AI / LLM**
-`Python` `LangGraph` `LangChain` `RAG` `LLM Fine-Tuning` `LoRA` `ChromaDB` `Unsloth`
+**AI / LLM** Python LangGraph LangChain RAG LLM Fine-Tuning LoRA ChromaDB Unsloth
 
-**Frontend & Mobile**
-`React` `TypeScript` `TailwindCSS` `Flutter` `Dart`
+**Frontend & Mobile** React TypeScript TailwindCSS Flutter Dart
 
-**Data & Databases**
-`PostgreSQL` `SQLite` `MySQL` `Entity Framework` `Hibernate` `Pandas` `NumPy`
+**Data & Databases** PostgreSQL SQLite MySQL Entity Framework Hibernate Pandas NumPy
 
-**DevOps & Tools**
-`Docker` `Git` `GitHub Actions` `Linux` `Active Directory` `SignalR` `Swagger` `Agile/Scrum`
+**DevOps & Tools** Docker Git GitHub Actions Linux Active Directory SignalR Swagger Agile/Scrum
 
-**Testing**
-`pytest` `Playwright` `LangGraph test suite`
+**Testing** pytest Playwright LangGraph test suite
 
 ---
 
