@@ -15,13 +15,23 @@
 
 ---
 
-I build **scalable backend systems and LLM-powered applications** across Java (Spring Boot), C# (.NET), and Python ecosystems. Currently working as an R&D Engineer at **Nurol Teknoloji**, where I own the AI backend of an enterprise NL2SQL platform — including RAG architecture, LangGraph agentic workflows, and FastAPI services.
+I build **scalable backend systems and LLM-powered applications** across Java (Spring Boot), C# (.NET), and Python ecosystems. Currently a **Software Engineer (Mobile & AI)** at **Reading Health**, building a pregnancy-tracking app and researching AI models for teratogenicity risk prediction. Previously owned the AI backend of an enterprise **NL2SQL** platform at **Nurol Teknoloji** — RAG architecture, LangGraph agentic workflows, and FastAPI services.
 
-I care about clean architecture, testable code, and solving real problems end-to-end.
+I care about clean architecture, testable code, and solving real problems end-to-end. I also work on Turkish NLP as a side interest.
 
 ---
 
 ## 🚀 Featured Projects
+
+### 🧹 [Yabay Zeka — Turkish AI-Text Pattern Cleaner](https://github.com/bycycomr/yabay-zeka) &nbsp;[![Stars](https://img.shields.io/github/stars/bycycomr/yabay-zeka?style=flat&label=%E2%AD%90)](https://github.com/bycycomr/yabay-zeka/stargazers)
+
+> An open-source Claude/LLM skill that detects and strips AI-writing patterns from **Turkish** text — the bureaucratic suffixes, filler phrases, and hidden-subject constructions that make LLM output sound robotic.
+
+- A ground-up **redesign** (not a translation) of the MIT-licensed [Stop Slop](https://github.com/hardikpandya/stop-slop) skill, built around Turkish-specific tells: `-mektedir/-maktadır` inflation, redundant `-dir` copula, "söz konusu / bağlamında / noktasında" filler, formulaic openers.
+- Ships as an installable `.skill` package with reference files for banned phrases, structural clichés, and before/after transformations.
+- Works with Claude Code, Claude Projects, custom instructions, and raw API system prompts.
+
+---
 
 ### 🎫 [Tickly — Enterprise Help Desk & Ticket Management System](https://github.com/bycycomr/tickly)
 
@@ -64,7 +74,9 @@ I care about clean architecture, testable code, and solving real problems end-to
 
 | | | |
 |---|---|---|
-| 🏢 **Nurol Teknoloji** | R&D Engineer | Oct 2025 – Present |
+| 🩺 **Reading Health** | Software Engineer — Mobile & AI (Flutter, .NET) | May 2026 – Present |
+| R&D: building a pregnancy-tracking mobile app and researching AI models for teratogenicity risk prediction. | | Ankara |
+| 🏢 **Nurol Teknoloji** | R&D Engineer | Oct 2025 – Apr 2026 |
 | AI Backend owner for NL2SQL platform on InnovatioN Together. Built RAG architecture, LangGraph agentic workflows, and FastAPI services from scratch. | | Ankara |
 | 🤖 **Intecro Robotics** | Junior Engineer (IT & Systems) | Apr 2025 – Oct 2025 |
 | Linux/Windows server management, Bash/Python automation for backup/recovery, Active Directory RBAC & GPO configuration. | | Ankara |
@@ -106,7 +118,7 @@ I care about clean architecture, testable code, and solving real problems end-to
 
 ## 🔬 In Progress
 
-**Turkish Medical AI Assistant** — Fine-tuned LLM (Unsloth + LoRA) that maps colloquial Turkish patient language and regional dialects to standardized medical terminology. RAG integration planned to reduce hallucination rate.
+**TRMEDLLM — Turkish Medical LLM** — Fine-tuned LLM (Unsloth + LoRA on DeepSeek-R1-Distill-Qwen-14B) that maps colloquial Turkish patient language and regional dialects to standardized medical terminology. RAG integration planned to reduce hallucination rate.
 
 ---
 
