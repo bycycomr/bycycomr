@@ -33,6 +33,18 @@ I care about clean architecture, testable code, and solving real problems end-to
 
 ---
 
+### 🩺 TRMEDLLM — Turkish Medical LLM *(graduation project · publishing soon)*
+
+> A fine-tuned Turkish medical language model that maps colloquial patient speech and regional dialects to standardized clinical terminology.
+
+- **Base & method:** DeepSeek-R1-Distill-Qwen-14B, fine-tuned with **LoRA + Unsloth** on a purpose-built ~203K-record Turkish "patient statement → medical" dataset
+- **Training:** 11,421 steps, ~79.5 hours on a single **RTX A4000**
+- **Results:** CJK contamination cut from **82.2% → 0.3%**, clinical safety rate **91.3%**
+- **Research output:** IEEE conference paper (submitted to ASYU 2026) · co-author Muhammed Emin Keçik · advisor Dr. Öğr. Üyesi Sevgi Yiğit Sert
+- *Repository will be made public soon.*
+
+---
+
 ### 🎫 [Tickly — Enterprise Help Desk & Ticket Management System](https://github.com/bycycomr/tickly)
 
 > Full-stack help desk solution for corporate support teams — web + mobile, real-time, production-ready.
@@ -113,12 +125,6 @@ I care about clean architecture, testable code, and solving real problems end-to
 
 **Testing**
 `pytest` `Playwright` `LangGraph test suite`
-
----
-
-## 🔬 In Progress
-
-**TRMEDLLM — Turkish Medical LLM** — Fine-tuned LLM (Unsloth + LoRA on DeepSeek-R1-Distill-Qwen-14B) that maps colloquial Turkish patient language and regional dialects to standardized medical terminology. RAG integration planned to reduce hallucination rate.
 
 ---
 
